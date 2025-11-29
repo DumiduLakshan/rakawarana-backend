@@ -38,6 +38,21 @@ def _validate_urls(urls: Iterable[str]) -> list[str]:
     return cleaned
 
 
+def _validate_url(url: str, field_name: str) -> str:
+    stripped = url.strip()
+    if not stripped:
+        raise InvalidDataException(
+            message=f"{field_name.replace('_', ' ').title()} is required",
+            details={"field": field_name},
+        )
+    if not (stripped.startswith("http://") or stripped.startswith("https://")):
+        raise InvalidDataException(
+            message=f"{field_name.replace('_', ' ').title()} must start with http:// or https://",
+            details={"field": field_name, "value": url},
+        )
+    return stripped
+
+
 class RescuePostCreate(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
@@ -48,6 +63,7 @@ class RescuePostCreate(BaseModel):
     land_mark: str | None = Field(None, max_length=255)
     district: str | None = Field(None, max_length=100)
     emergency_type: str = Field(..., min_length=3, max_length=100)
+    priority_level: str = Field(..., min_length=3, max_length=20)
     number_of_peoples_to_rescue: int | None = Field(
         None, ge=1, le=10_000, alias="number_of_peoples"
     )
@@ -61,7 +77,7 @@ class RescuePostCreate(BaseModel):
     need_power: bool = False
     need_clothes: bool = False
     description: str | None = Field(None, max_length=2_000)
-    is_verified: bool = False
+    location_url: str = Field(..., min_length=5, max_length=2_048)
     image_urls: list[str] | None = None
 
     @field_validator("phone_number")
@@ -82,6 +98,23 @@ class RescuePostCreate(BaseModel):
         if value is None:
             return value
         return _validate_urls(value)
+
+    @field_validator("priority_level")
+    @classmethod
+    def validate_priority_level(cls, value: str) -> str:
+        normalized = value.strip().lower()
+        allowed = {"high", "medium", "low"}
+        if normalized not in allowed:
+            raise InvalidDataException(
+                message="Priority level must be one of high, medium, or low",
+                details={"field": "priority_level", "value": value},
+            )
+        return normalized
+
+    @field_validator("location_url")
+    @classmethod
+    def validate_location_url(cls, value: str) -> str:
+        return _validate_url(value, "location_url")
 
     @classmethod
     def validate_with_app_error(cls, data: dict[str, Any]) -> "RescuePostCreate":
@@ -116,7 +149,8 @@ class RescuePostCreate(BaseModel):
         need_power: bool = Form(False),
         need_clothes: bool = Form(False),
         description: str | None = Form(None),
-        is_verified: bool = Form(False),
+        priority_level: str = Form(...),
+        location_url: str = Form(...),
     ) -> "RescuePostCreate":
         """Enable FastAPI to parse form-data directly into the schema."""
         return cls(
@@ -138,7 +172,8 @@ class RescuePostCreate(BaseModel):
             need_power=need_power,
             need_clothes=need_clothes,
             description=description,
-            is_verified=is_verified,
+            priority_level=priority_level,
+            location_url=location_url,
         )
 
 

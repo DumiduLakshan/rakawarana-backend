@@ -39,7 +39,8 @@ async def create_rescue_post(
     need_power: bool = Form(False),
     need_clothes: bool = Form(False),
     description: str | None = Form(None),
-    is_verified: bool = Form(False),
+    priority_level: str = Form(...),
+    location_url: str = Form(...),
 ):
     spaces_client = get_spaces_client()
 
@@ -68,7 +69,8 @@ async def create_rescue_post(
         "need_power": need_power,
         "need_clothes": need_clothes,
         "description": description,
-        "is_verified": is_verified,
+        "priority_level": priority_level,
+        "location_url": location_url,
     }
 
     result = await create_rescue_post_with_images(

@@ -1,0 +1,1256 @@
+[
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "APIError",
+        "importPath": "postgrest.exceptions",
+        "description": "postgrest.exceptions",
+        "isExtraImport": true,
+        "detail": "postgrest.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "create_client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "AppError",
+        "importPath": "app.utils.exception_handlers",
+        "description": "app.utils.exception_handlers",
+        "isExtraImport": true,
+        "detail": "app.utils.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidDataException",
+        "importPath": "app.utils.exception_handlers",
+        "description": "app.utils.exception_handlers",
+        "isExtraImport": true,
+        "detail": "app.utils.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidDataException",
+        "importPath": "app.utils.exception_handlers",
+        "description": "app.utils.exception_handlers",
+        "isExtraImport": true,
+        "detail": "app.utils.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "AppError",
+        "importPath": "app.utils.exception_handlers",
+        "description": "app.utils.exception_handlers",
+        "isExtraImport": true,
+        "detail": "app.utils.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidDataException",
+        "importPath": "app.utils.exception_handlers",
+        "description": "app.utils.exception_handlers",
+        "isExtraImport": true,
+        "detail": "app.utils.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "AppError",
+        "importPath": "app.utils.exception_handlers",
+        "description": "app.utils.exception_handlers",
+        "isExtraImport": true,
+        "detail": "app.utils.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "register_exception_handlers",
+        "importPath": "app.utils.exception_handlers",
+        "description": "app.utils.exception_handlers",
+        "isExtraImport": true,
+        "detail": "app.utils.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "delete_post",
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "isExtraImport": true,
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_unverified_posts",
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "isExtraImport": true,
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "verify_post",
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "isExtraImport": true,
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_rescue_post_with_images",
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "isExtraImport": true,
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_priority_stats",
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "isExtraImport": true,
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_top_critical_posts",
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "isExtraImport": true,
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_rescue_posts_with_images",
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "isExtraImport": true,
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_rescue_posts_filtered",
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "isExtraImport": true,
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "require_admin_token",
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "isExtraImport": true,
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase",
+        "importPath": "app.utils.supabase_client",
+        "description": "app.utils.supabase_client",
+        "isExtraImport": true,
+        "detail": "app.utils.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase",
+        "importPath": "app.utils.supabase_client",
+        "description": "app.utils.supabase_client",
+        "isExtraImport": true,
+        "detail": "app.utils.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "close_supabase_client",
+        "importPath": "app.utils.supabase_client",
+        "description": "app.utils.supabase_client",
+        "isExtraImport": true,
+        "detail": "app.utils.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "init_supabase_client",
+        "importPath": "app.utils.supabase_client",
+        "description": "app.utils.supabase_client",
+        "isExtraImport": true,
+        "detail": "app.utils.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_health_status",
+        "importPath": "app.services.health_service",
+        "description": "app.services.health_service",
+        "isExtraImport": true,
+        "detail": "app.services.health_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_spaces_client",
+        "importPath": "app.utils.spaces_client",
+        "description": "app.utils.spaces_client",
+        "isExtraImport": true,
+        "detail": "app.utils.spaces_client",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_health",
+        "importPath": "app.repositories.health_repository",
+        "description": "app.repositories.health_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.health_repository",
+        "documentation": {}
+    },
+    {
+        "label": "mimetypes",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mimetypes",
+        "description": "mimetypes",
+        "detail": "mimetypes",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "BotoCoreError",
+        "importPath": "botocore.exceptions",
+        "description": "botocore.exceptions",
+        "isExtraImport": true,
+        "detail": "botocore.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ClientError",
+        "importPath": "botocore.exceptions",
+        "description": "botocore.exceptions",
+        "isExtraImport": true,
+        "detail": "botocore.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_rescue_posts_by_district",
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_rescue_posts_by_emergency_type",
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_rescue_posts_by_water_level",
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_rescue_posts_with_images",
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_rescue_posts_filtered",
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_priority_counts",
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_unverified_posts",
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "verify_rescue_post",
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "delete_rescue_post",
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "insert_images",
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "insert_rescue_post",
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "RescuePostCreate",
+        "importPath": "app.schemas.rescue_posts",
+        "description": "app.schemas.rescue_posts",
+        "isExtraImport": true,
+        "detail": "app.schemas.rescue_posts",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "importPath": "app.utils.settings",
+        "description": "app.utils.settings",
+        "isExtraImport": true,
+        "detail": "app.utils.settings",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "importPath": "app.utils.settings",
+        "description": "app.utils.settings",
+        "isExtraImport": true,
+        "detail": "app.utils.settings",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "importPath": "app.utils.settings",
+        "description": "app.utils.settings",
+        "isExtraImport": true,
+        "detail": "app.utils.settings",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "importPath": "app.utils.settings",
+        "description": "app.utils.settings",
+        "isExtraImport": true,
+        "detail": "app.utils.settings",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "importPath": "app.utils.settings",
+        "description": "app.utils.settings",
+        "isExtraImport": true,
+        "detail": "app.utils.settings",
+        "documentation": {}
+    },
+    {
+        "label": "send_telegram_notification",
+        "importPath": "app.utils.telegram",
+        "description": "app.utils.telegram",
+        "isExtraImport": true,
+        "detail": "app.utils.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "RequestValidationError",
+        "importPath": "fastapi.exceptions",
+        "description": "fastapi.exceptions",
+        "isExtraImport": true,
+        "detail": "fastapi.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "dictConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "boto3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "boto3",
+        "description": "boto3",
+        "detail": "boto3",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "botocore.config",
+        "description": "botocore.config",
+        "isExtraImport": true,
+        "detail": "botocore.config",
+        "documentation": {}
+    },
+    {
+        "label": "inspect",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "inspect",
+        "description": "inspect",
+        "detail": "inspect",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "importPath": "app.routes",
+        "description": "app.routes",
+        "isExtraImport": true,
+        "detail": "app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "posts",
+        "importPath": "app.routes",
+        "description": "app.routes",
+        "isExtraImport": true,
+        "detail": "app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "app.routes",
+        "description": "app.routes",
+        "isExtraImport": true,
+        "detail": "app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "configure_logging",
+        "importPath": "app.utils.logging_setup",
+        "description": "app.utils.logging_setup",
+        "isExtraImport": true,
+        "detail": "app.utils.logging_setup",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_health",
+        "kind": 2,
+        "importPath": "app.repositories.health_repository",
+        "description": "app.repositories.health_repository",
+        "peekOfCode": "def fetch_health() -> dict:\n    return {\"message\": \"Service healthy\"}",
+        "detail": "app.repositories.health_repository",
+        "documentation": {}
+    },
+    {
+        "label": "insert_rescue_post",
+        "kind": 2,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "def insert_rescue_post(supabase: Client, payload: dict[str, Any]) -> dict[str, Any]:\n    try:\n        response = supabase.table(\"rescue_posts\").insert(payload).execute()\n    except APIError as exc:\n        logger.error(\"Failed to insert rescue_post: %s\", exc)\n        raise AppError(\n            message=\"Failed to save rescue post\",\n            status_code=500,\n            details={\"error\": str(exc)},\n        ) from exc",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "insert_images",
+        "kind": 2,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "def insert_images(\n    supabase: Client, images_payload: list[dict[str, Any]]\n) -> list[dict[str, Any]]:\n    if not images_payload:\n        return []\n    try:\n        response = supabase.table(\"images\").insert(images_payload).execute()\n    except APIError as exc:\n        logger.error(\"Failed to insert images: %s\", exc)\n        raise AppError(",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_rescue_posts_with_images",
+        "kind": 2,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "def fetch_rescue_posts_with_images(\n    supabase: Client,\n) -> list[dict[str, Any]]:\n    try:\n        response = (\n            supabase.table(\"rescue_posts\")\n            .select(\"*, images(*)\")\n            .order(\"created_at\", desc=True)\n            .execute()\n        )",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_rescue_posts_by_emergency_type",
+        "kind": 2,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "def fetch_rescue_posts_by_emergency_type(\n    supabase: Client, emergency_type: str\n) -> list[dict[str, Any]]:\n    try:\n        response = (\n            supabase.table(\"rescue_posts\")\n            .select(\"*, images(*)\")\n            .eq(\"emergency_type\", emergency_type)\n            .order(\"created_at\", desc=True)\n            .execute()",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_rescue_posts_by_district",
+        "kind": 2,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "def fetch_rescue_posts_by_district(supabase: Client, district: str) -> list[dict[str, Any]]:\n    try:\n        response = (\n            supabase.table(\"rescue_posts\")\n            .select(\"*, images(*)\")\n            .eq(\"district\", district)\n            .order(\"created_at\", desc=True)\n            .execute()\n        )\n    except APIError as exc:",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_rescue_posts_by_water_level",
+        "kind": 2,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "def fetch_rescue_posts_by_water_level(\n    supabase: Client, water_level: str\n) -> list[dict[str, Any]]:\n    try:\n        response = (\n            supabase.table(\"rescue_posts\")\n            .select(\"*, images(*)\")\n            .eq(\"water_level\", water_level)\n            .order(\"created_at\", desc=True)\n            .execute()",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_rescue_posts_filtered",
+        "kind": 2,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "def fetch_rescue_posts_filtered(\n    supabase: Client,\n    filters: dict[str, Any],\n) -> list[dict[str, Any]]:\n    try:\n        query = supabase.table(\"rescue_posts\").select(\"*, images(*)\")\n        for field, value in filters.items():\n            if value is None:\n                continue\n            if field == \"min_people\":",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_priority_counts",
+        "kind": 2,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "def fetch_priority_counts(supabase: Client) -> dict[str, int]:\n    \"\"\"Return counts for total and priority levels (high/medium/low via priority_level).\"\"\"\n    try:\n        total_resp = supabase.table(\"rescue_posts\").select(\"id\", count=\"exact\").execute()\n        total = total_resp.count or 0\n        def count_for(level: str) -> int:\n            resp = (\n                supabase.table(\"rescue_posts\")\n                .select(\"id\", count=\"exact\")\n                .eq(\"priority_level\", level)",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_unverified_posts",
+        "kind": 2,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "def fetch_unverified_posts(supabase: Client) -> list[dict[str, Any]]:\n    try:\n        response = (\n            supabase.table(\"rescue_posts\")\n            .select(\"*, images(*)\")\n            .eq(\"is_verified\", False)\n            .order(\"created_at\", desc=True)\n            .execute()\n        )\n    except APIError as exc:",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "verify_rescue_post",
+        "kind": 2,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "def verify_rescue_post(supabase: Client, post_id: str) -> dict[str, Any]:\n    try:\n        response = (\n            supabase.table(\"rescue_posts\")\n            .update({\"is_verified\": True})\n            .eq(\"id\", post_id)\n            .execute()\n        )\n    except APIError as exc:\n        logger.error(\"Failed to verify rescue post %s: %s\", post_id, exc)",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "delete_rescue_post",
+        "kind": 2,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "def delete_rescue_post(supabase: Client, post_id: str) -> None:\n    try:\n        response = supabase.table(\"rescue_posts\").delete().eq(\"id\", post_id).execute()\n    except APIError as exc:\n        logger.error(\"Failed to delete rescue post %s: %s\", post_id, exc)\n        raise AppError(\n            message=\"Failed to delete rescue post\",\n            status_code=500,\n            details={\"error\": str(exc), \"post_id\": post_id},\n        ) from exc",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.repositories.posts_repository",
+        "description": "app.repositories.posts_repository",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef insert_rescue_post(supabase: Client, payload: dict[str, Any]) -> dict[str, Any]:\n    try:\n        response = supabase.table(\"rescue_posts\").insert(payload).execute()\n    except APIError as exc:\n        logger.error(\"Failed to insert rescue_post: %s\", exc)\n        raise AppError(\n            message=\"Failed to save rescue post\",\n            status_code=500,\n            details={\"error\": str(exc)},",
+        "detail": "app.repositories.posts_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_unverified_posts",
+        "kind": 2,
+        "importPath": "app.routes.admin",
+        "description": "app.routes.admin",
+        "peekOfCode": "def get_unverified_posts(supabase_client=Depends(get_supabase)):\n    return list_unverified_posts(supabase_client)\n@router.post(\"/posts/{post_id}/verify\", summary=\"Verify a post by id (admin)\")\ndef verify_rescue_post(post_id: str, supabase_client=Depends(get_supabase)):\n    return verify_post(supabase_client, post_id)\n@router.delete(\"/posts/{post_id}\", summary=\"Delete a post by id (admin)\")\ndef delete_rescue_post(post_id: str, supabase_client=Depends(get_supabase)):\n    delete_post(supabase_client, post_id)\n    return {\"message\": \"Post deleted\", \"post_id\": post_id}",
+        "detail": "app.routes.admin",
+        "documentation": {}
+    },
+    {
+        "label": "verify_rescue_post",
+        "kind": 2,
+        "importPath": "app.routes.admin",
+        "description": "app.routes.admin",
+        "peekOfCode": "def verify_rescue_post(post_id: str, supabase_client=Depends(get_supabase)):\n    return verify_post(supabase_client, post_id)\n@router.delete(\"/posts/{post_id}\", summary=\"Delete a post by id (admin)\")\ndef delete_rescue_post(post_id: str, supabase_client=Depends(get_supabase)):\n    delete_post(supabase_client, post_id)\n    return {\"message\": \"Post deleted\", \"post_id\": post_id}",
+        "detail": "app.routes.admin",
+        "documentation": {}
+    },
+    {
+        "label": "delete_rescue_post",
+        "kind": 2,
+        "importPath": "app.routes.admin",
+        "description": "app.routes.admin",
+        "peekOfCode": "def delete_rescue_post(post_id: str, supabase_client=Depends(get_supabase)):\n    delete_post(supabase_client, post_id)\n    return {\"message\": \"Post deleted\", \"post_id\": post_id}",
+        "detail": "app.routes.admin",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routes.admin",
+        "description": "app.routes.admin",
+        "peekOfCode": "router = APIRouter(prefix=\"/admin\", tags=[\"admin\"], dependencies=[Depends(require_admin_token)])\nlogger = logging.getLogger(__name__)\n@router.get(\"/posts/unverified\", summary=\"List unverified posts with images (admin)\")\ndef get_unverified_posts(supabase_client=Depends(get_supabase)):\n    return list_unverified_posts(supabase_client)\n@router.post(\"/posts/{post_id}/verify\", summary=\"Verify a post by id (admin)\")\ndef verify_rescue_post(post_id: str, supabase_client=Depends(get_supabase)):\n    return verify_post(supabase_client, post_id)\n@router.delete(\"/posts/{post_id}\", summary=\"Delete a post by id (admin)\")\ndef delete_rescue_post(post_id: str, supabase_client=Depends(get_supabase)):",
+        "detail": "app.routes.admin",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.routes.admin",
+        "description": "app.routes.admin",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@router.get(\"/posts/unverified\", summary=\"List unverified posts with images (admin)\")\ndef get_unverified_posts(supabase_client=Depends(get_supabase)):\n    return list_unverified_posts(supabase_client)\n@router.post(\"/posts/{post_id}/verify\", summary=\"Verify a post by id (admin)\")\ndef verify_rescue_post(post_id: str, supabase_client=Depends(get_supabase)):\n    return verify_post(supabase_client, post_id)\n@router.delete(\"/posts/{post_id}\", summary=\"Delete a post by id (admin)\")\ndef delete_rescue_post(post_id: str, supabase_client=Depends(get_supabase)):\n    delete_post(supabase_client, post_id)",
+        "detail": "app.routes.admin",
+        "documentation": {}
+    },
+    {
+        "label": "read_health",
+        "kind": 2,
+        "importPath": "app.routes.health",
+        "description": "app.routes.health",
+        "peekOfCode": "def read_health():\n    return \"server running normally\"",
+        "detail": "app.routes.health",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routes.health",
+        "description": "app.routes.health",
+        "peekOfCode": "router = APIRouter(prefix=\"/health\", tags=[\"health\"])\n@router.get(\"\", summary=\"Health check\")\ndef read_health():\n    return \"server running normally\"",
+        "detail": "app.routes.health",
+        "documentation": {}
+    },
+    {
+        "label": "list_rescue_posts",
+        "kind": 2,
+        "importPath": "app.routes.posts",
+        "description": "app.routes.posts",
+        "peekOfCode": "def list_rescue_posts(supabase_client=Depends(get_supabase)):\n    return list_rescue_posts_with_images(supabase_client)\n@router.get(\n    \"/critical/top\",\n    summary=\"List most critical rescue posts (top 3) with images\",\n)\ndef list_critical_posts(supabase_client=Depends(get_supabase)):\n    return list_top_critical_posts(supabase_client)\n@router.get(\n    \"/filter\",",
+        "detail": "app.routes.posts",
+        "documentation": {}
+    },
+    {
+        "label": "list_critical_posts",
+        "kind": 2,
+        "importPath": "app.routes.posts",
+        "description": "app.routes.posts",
+        "peekOfCode": "def list_critical_posts(supabase_client=Depends(get_supabase)):\n    return list_top_critical_posts(supabase_client)\n@router.get(\n    \"/filter\",\n    summary=\"Filter rescue posts by multiple criteria (AND) with images\",\n)\ndef filter_rescue_posts(\n    supabase_client=Depends(get_supabase),\n    district: str | None = None,\n    emergency_type: str | None = None,",
+        "detail": "app.routes.posts",
+        "documentation": {}
+    },
+    {
+        "label": "filter_rescue_posts",
+        "kind": 2,
+        "importPath": "app.routes.posts",
+        "description": "app.routes.posts",
+        "peekOfCode": "def filter_rescue_posts(\n    supabase_client=Depends(get_supabase),\n    district: str | None = None,\n    emergency_type: str | None = None,\n    water_level: str | None = None,\n    is_medical_needed: bool | None = None,\n    need_foods: bool | None = None,\n    need_water: bool | None = None,\n    need_transport: bool | None = None,\n    need_medic: bool | None = None,",
+        "detail": "app.routes.posts",
+        "documentation": {}
+    },
+    {
+        "label": "get_post_stats",
+        "kind": 2,
+        "importPath": "app.routes.posts",
+        "description": "app.routes.posts",
+        "peekOfCode": "def get_post_stats(supabase_client=Depends(get_supabase)):\n    return get_priority_stats(supabase_client)",
+        "detail": "app.routes.posts",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routes.posts",
+        "description": "app.routes.posts",
+        "peekOfCode": "router = APIRouter(prefix=\"/posts\", tags=[\"posts\"])\nlogger = logging.getLogger(__name__)\n@router.post(\"\", summary=\"Create a rescue post with images\")\nasync def create_rescue_post(\n    images: list[UploadFile] = File(...),\n    supabase_client=Depends(get_supabase),\n    full_name: str = Form(...),\n    phone_number: str = Form(...),\n    alt_phone_number: str | None = Form(None),\n    location: str = Form(...),",
+        "detail": "app.routes.posts",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.routes.posts",
+        "description": "app.routes.posts",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@router.post(\"\", summary=\"Create a rescue post with images\")\nasync def create_rescue_post(\n    images: list[UploadFile] = File(...),\n    supabase_client=Depends(get_supabase),\n    full_name: str = Form(...),\n    phone_number: str = Form(...),\n    alt_phone_number: str | None = Form(None),\n    location: str = Form(...),\n    land_mark: str | None = Form(None),",
+        "detail": "app.routes.posts",
+        "documentation": {}
+    },
+    {
+        "label": "RescuePostCreate",
+        "kind": 6,
+        "importPath": "app.schemas.rescue_posts",
+        "description": "app.schemas.rescue_posts",
+        "peekOfCode": "class RescuePostCreate(BaseModel):\n    model_config = ConfigDict(populate_by_name=True)\n    full_name: str = Field(..., min_length=3, max_length=150)\n    phone_number: str = Field(..., min_length=7, max_length=20)\n    alt_phone_number: str | None = Field(None, min_length=7, max_length=20)\n    location: str = Field(..., min_length=3, max_length=255)\n    land_mark: str | None = Field(None, max_length=255)\n    district: str | None = Field(None, max_length=100)\n    emergency_type: str = Field(..., min_length=3, max_length=100)\n    priority_level: str = Field(..., min_length=3, max_length=20)",
+        "detail": "app.schemas.rescue_posts",
+        "documentation": {}
+    },
+    {
+        "label": "get_health_status",
+        "kind": 2,
+        "importPath": "app.services.health_service",
+        "description": "app.services.health_service",
+        "peekOfCode": "def get_health_status() -> dict:\n    return {\"status\": \"ok\", \"details\": fetch_health()}",
+        "detail": "app.services.health_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_rescue_posts_with_images",
+        "kind": 2,
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "peekOfCode": "def list_rescue_posts_with_images(supabase_client) -> list[dict[str, Any]]:\n    \"\"\"Return posts with their related images.\"\"\"\n    return fetch_rescue_posts_with_images(supabase_client)\ndef list_rescue_posts_by_emergency(\n    supabase_client, emergency_type: str\n) -> list[dict[str, Any]]:\n    \"\"\"Return posts filtered by emergency_type with their images.\"\"\"\n    if not emergency_type:\n        raise InvalidDataException(\n            message=\"Emergency type is required\", details={\"field\": \"emergency_type\"}",
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_rescue_posts_by_emergency",
+        "kind": 2,
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "peekOfCode": "def list_rescue_posts_by_emergency(\n    supabase_client, emergency_type: str\n) -> list[dict[str, Any]]:\n    \"\"\"Return posts filtered by emergency_type with their images.\"\"\"\n    if not emergency_type:\n        raise InvalidDataException(\n            message=\"Emergency type is required\", details={\"field\": \"emergency_type\"}\n        )\n    return fetch_rescue_posts_by_emergency_type(supabase_client, emergency_type)\ndef list_rescue_posts_by_district(",
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_rescue_posts_by_district",
+        "kind": 2,
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "peekOfCode": "def list_rescue_posts_by_district(\n    supabase_client, district: str\n) -> list[dict[str, Any]]:\n    \"\"\"Return posts filtered by district with their images.\"\"\"\n    if not district:\n        raise InvalidDataException(\n            message=\"District is required\", details={\"field\": \"district\"}\n        )\n    return fetch_rescue_posts_by_district(supabase_client, district)\ndef list_rescue_posts_by_water_level(",
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_rescue_posts_by_water_level",
+        "kind": 2,
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "peekOfCode": "def list_rescue_posts_by_water_level(\n    supabase_client, water_level: str\n) -> list[dict[str, Any]]:\n    \"\"\"Return posts filtered by water_level with their images.\"\"\"\n    if not water_level:\n        raise InvalidDataException(\n            message=\"Water level is required\", details={\"field\": \"water_level\"}\n        )\n    return fetch_rescue_posts_by_water_level(supabase_client, water_level)\ndef list_rescue_posts_filtered(",
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_rescue_posts_filtered",
+        "kind": 2,
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "peekOfCode": "def list_rescue_posts_filtered(\n    supabase_client,\n    district: str | None = None,\n    emergency_type: str | None = None,\n    water_level: str | None = None,\n    is_medical_needed: bool | None = None,\n    need_foods: bool | None = None,\n    need_water: bool | None = None,\n    need_transport: bool | None = None,\n    need_medic: bool | None = None,",
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_priority_stats",
+        "kind": 2,
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "peekOfCode": "def get_priority_stats(supabase_client) -> dict[str, int]:\n    \"\"\"Return counts for total/high/medium/low priority posts.\"\"\"\n    return fetch_priority_counts(supabase_client)\ndef list_unverified_posts(supabase_client) -> list[dict[str, Any]]:\n    \"\"\"Return unverified posts with images.\"\"\"\n    return fetch_unverified_posts(supabase_client)\ndef verify_post(supabase_client, post_id: str) -> dict[str, Any]:\n    \"\"\"Mark a post as verified.\"\"\"\n    if not post_id:\n        raise InvalidDataException(",
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_unverified_posts",
+        "kind": 2,
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "peekOfCode": "def list_unverified_posts(supabase_client) -> list[dict[str, Any]]:\n    \"\"\"Return unverified posts with images.\"\"\"\n    return fetch_unverified_posts(supabase_client)\ndef verify_post(supabase_client, post_id: str) -> dict[str, Any]:\n    \"\"\"Mark a post as verified.\"\"\"\n    if not post_id:\n        raise InvalidDataException(\n            message=\"Post id is required\", details={\"field\": \"post_id\"}\n        )\n    return verify_rescue_post(supabase_client, post_id)",
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "verify_post",
+        "kind": 2,
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "peekOfCode": "def verify_post(supabase_client, post_id: str) -> dict[str, Any]:\n    \"\"\"Mark a post as verified.\"\"\"\n    if not post_id:\n        raise InvalidDataException(\n            message=\"Post id is required\", details={\"field\": \"post_id\"}\n        )\n    return verify_rescue_post(supabase_client, post_id)\ndef delete_post(supabase_client, post_id: str) -> None:\n    \"\"\"Delete a post by id.\"\"\"\n    if not post_id:",
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "delete_post",
+        "kind": 2,
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "peekOfCode": "def delete_post(supabase_client, post_id: str) -> None:\n    \"\"\"Delete a post by id.\"\"\"\n    if not post_id:\n        raise InvalidDataException(\n            message=\"Post id is required\", details={\"field\": \"post_id\"}\n        )\n    delete_rescue_post(supabase_client, post_id)\ndef _priority_score(post: dict[str, Any]) -> tuple[float, float]:\n    \"\"\"Compute a priority score; higher is more critical. Returns (score, -timestamp).\"\"\"\n    score = 0.0",
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_top_critical_posts",
+        "kind": 2,
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "peekOfCode": "def list_top_critical_posts(supabase_client, limit: int = 3) -> list[dict[str, Any]]:\n    \"\"\"Return top critical posts (with images) based on priority scoring.\"\"\"\n    posts = fetch_rescue_posts_with_images(supabase_client)\n    sorted_posts = sorted(posts, key=_priority_score, reverse=True)\n    return sorted_posts[:limit]",
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.services.posts_service",
+        "description": "app.services.posts_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nasync def upload_images_to_spaces(\n    files: list[UploadFile], spaces_client, settings\n) -> list[str]:\n    if not files:\n        raise InvalidDataException(\n            message=\"At least one image file is required\",\n            details={\"field\": \"images\"},\n        )\n    max_bytes = settings.digitalocean_max_file_size_mb * 1024 * 1024",
+        "detail": "app.services.posts_service",
+        "documentation": {}
+    },
+    {
+        "label": "require_admin_token",
+        "kind": 2,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "def require_admin_token(x_api_token: str | None = Header(None)) -> None:\n    \"\"\"Dependency to enforce admin token header.\"\"\"\n    settings = get_settings()\n    if not settings.admin_token:\n        raise AppError(\n            message=\"Admin token not configured\",\n            status_code=500,\n            details={\"missing\": \"ADMIN_TOKEN\"},\n        )\n    if not x_api_token or x_api_token != settings.admin_token:",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AppError",
+        "kind": 6,
+        "importPath": "app.utils.exception_handlers",
+        "description": "app.utils.exception_handlers",
+        "peekOfCode": "class AppError(Exception):\n    \"\"\"Base application error to return predictable responses.\"\"\"\n    def __init__(\n        self,\n        message: str,\n        status_code: int = status.HTTP_400_BAD_REQUEST,\n        code: str | None = None,\n        details: dict | None = None,\n    ):\n        self.message = message",
+        "detail": "app.utils.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidDataException",
+        "kind": 6,
+        "importPath": "app.utils.exception_handlers",
+        "description": "app.utils.exception_handlers",
+        "peekOfCode": "class InvalidDataException(AppError):\n    \"\"\"Raised when user input is invalid for domain-specific reasons.\"\"\"\n    def __init__(self, message: str = \"Invalid data\", details: dict | None = None):\n        super().__init__(\n            message=message,\n            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,\n            code=\"invalid_data\",\n            details=details,\n        )\ndef register_exception_handlers(app: FastAPI) -> None:",
+        "detail": "app.utils.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "register_exception_handlers",
+        "kind": 2,
+        "importPath": "app.utils.exception_handlers",
+        "description": "app.utils.exception_handlers",
+        "peekOfCode": "def register_exception_handlers(app: FastAPI) -> None:\n    @app.exception_handler(AppError)\n    async def app_error_handler(_: Request, exc: AppError):\n        logger.warning(\"AppError raised: %s\", exc.message)\n        return JSONResponse(\n            status_code=exc.status_code,\n            content={\n                \"error\": exc.message,\n                \"code\": exc.code,\n                \"details\": exc.details,",
+        "detail": "app.utils.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.utils.exception_handlers",
+        "description": "app.utils.exception_handlers",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AppError(Exception):\n    \"\"\"Base application error to return predictable responses.\"\"\"\n    def __init__(\n        self,\n        message: str,\n        status_code: int = status.HTTP_400_BAD_REQUEST,\n        code: str | None = None,\n        details: dict | None = None,\n    ):",
+        "detail": "app.utils.exception_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "configure_logging",
+        "kind": 2,
+        "importPath": "app.utils.logging_setup",
+        "description": "app.utils.logging_setup",
+        "peekOfCode": "def configure_logging() -> None:\n    \"\"\"Configure application-wide logging.\"\"\"\n    dictConfig(\n        {\n            \"version\": 1,\n            \"disable_existing_loggers\": False,\n            \"formatters\": {\n                \"standard\": {\n                    \"format\": \"[%(asctime)s] [%(levelname)s] %(name)s: %(message)s\",\n                },",
+        "detail": "app.utils.logging_setup",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "app.utils.settings",
+        "description": "app.utils.settings",
+        "peekOfCode": "class Settings:\n    supabase_url: str\n    supabase_key: str\n    digitalocean_access_key: str\n    digitalocean_secret_key: str\n    digitalocean_bucket: str\n    digitalocean_region: str\n    digitalocean_cdn_endpoint: str\n    digitalocean_origin_endpoint: str\n    supabase_bucket: str = \"images\"",
+        "detail": "app.utils.settings",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "kind": 2,
+        "importPath": "app.utils.settings",
+        "description": "app.utils.settings",
+        "peekOfCode": "def get_settings() -> Settings:\n    \"\"\"Return cached settings so we only parse env once.\"\"\"\n    return Settings.from_env()",
+        "detail": "app.utils.settings",
+        "documentation": {}
+    },
+    {
+        "label": "get_spaces_client",
+        "kind": 2,
+        "importPath": "app.utils.spaces_client",
+        "description": "app.utils.spaces_client",
+        "peekOfCode": "def get_spaces_client():\n    \"\"\"Return a boto3 client configured for DigitalOcean Spaces.\"\"\"\n    settings = get_settings()\n    return boto3.client(\n        \"s3\",\n        region_name=settings.digitalocean_region,\n        endpoint_url=settings.digitalocean_origin_endpoint,\n        aws_access_key_id=settings.digitalocean_access_key,\n        aws_secret_access_key=settings.digitalocean_secret_key,\n        config=Config(signature_version=\"s3v4\"),",
+        "detail": "app.utils.spaces_client",
+        "documentation": {}
+    },
+    {
+        "label": "init_supabase_client",
+        "kind": 2,
+        "importPath": "app.utils.supabase_client",
+        "description": "app.utils.supabase_client",
+        "peekOfCode": "def init_supabase_client() -> Client:\n    \"\"\"Create and return a Supabase client using configured settings.\"\"\"\n    settings = get_settings()\n    client = create_client(settings.supabase_url, settings.supabase_key)\n    logger.info(\"Supabase client initialized\")\n    return client\nasync def close_supabase_client(client: Optional[Client]) -> None:\n    \"\"\"Close the Supabase client if it exposes a close method.\"\"\"\n    if client is None:\n        return",
+        "detail": "app.utils.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase",
+        "kind": 2,
+        "importPath": "app.utils.supabase_client",
+        "description": "app.utils.supabase_client",
+        "peekOfCode": "def get_supabase(request):\n    \"\"\"Convenience dependency to fetch Supabase client from app state.\"\"\"\n    return request.app.state.supabase\ndef get_supabase(request: Request):\n    return request.app.state.supabase",
+        "detail": "app.utils.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "get_supabase",
+        "kind": 2,
+        "importPath": "app.utils.supabase_client",
+        "description": "app.utils.supabase_client",
+        "peekOfCode": "def get_supabase(request: Request):\n    return request.app.state.supabase",
+        "detail": "app.utils.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.utils.supabase_client",
+        "description": "app.utils.supabase_client",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef init_supabase_client() -> Client:\n    \"\"\"Create and return a Supabase client using configured settings.\"\"\"\n    settings = get_settings()\n    client = create_client(settings.supabase_url, settings.supabase_key)\n    logger.info(\"Supabase client initialized\")\n    return client\nasync def close_supabase_client(client: Optional[Client]) -> None:\n    \"\"\"Close the Supabase client if it exposes a close method.\"\"\"\n    if client is None:",
+        "detail": "app.utils.supabase_client",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.utils.telegram",
+        "description": "app.utils.telegram",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef _format_html_message(data: dict[str, str | None], is_verified: bool | None) -> str:\n    status = \"✅ Verified\" if is_verified else \"❌ Not verified\"\n    parts = [\n        \"<b>🚨 New rescue post arrived</b>\",\n        f\"<b>{status}</b>\",\n        \"\",\n    ]\n    field_icons = {\n        \"Full Name\": \"👤\",",
+        "detail": "app.utils.telegram",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def create_app() -> FastAPI:\n    configure_logging()\n    app = FastAPI(title=\"Rescue API\", version=\"0.1.0\", lifespan=lifespan)\n    register_exception_handlers(app)\n    app.include_router(health.router, prefix=\"/api\")\n    app.include_router(posts.router, prefix=\"/api\")\n    app.include_router(admin.router, prefix=\"/api\")\n    return app\napp = create_app()",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    supabase_client = init_supabase_client()\n    app.state.supabase = supabase_client\n    try:\n        yield\n    finally:\n        await close_supabase_client(supabase_client)\ndef create_app() -> FastAPI:",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = create_app()",
+        "detail": "app.main",
+        "documentation": {}
+    }
+]

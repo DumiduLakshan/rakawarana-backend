@@ -182,7 +182,7 @@ def fetch_rescue_posts_filtered(
 
 
 def fetch_priority_counts(supabase: Client) -> dict[str, int]:
-    """Return counts for total and priority levels (high/medium/low via emergency_type)."""
+    """Return counts for total and priority levels (high/medium/low via priority_level)."""
     try:
         total_resp = supabase.table("rescue_posts").select("id", count="exact").execute()
         total = total_resp.count or 0
@@ -191,7 +191,7 @@ def fetch_priority_counts(supabase: Client) -> dict[str, int]:
             resp = (
                 supabase.table("rescue_posts")
                 .select("id", count="exact")
-                .eq("emergency_type", level)
+                .eq("priority_level", level)
                 .execute()
             )
             return resp.count or 0

@@ -41,9 +41,10 @@ class Settings:
         origin_endpoint = os.getenv("DIGITALOCEAN_ORIGIN") or os.getenv(
             "DIGITALOCEAN_ORIGIN_ENDPOINT"
         )
-        upload_prefix = (
-            os.getenv("DIGITALOCEAN_UPLOAD_PREFIX", "posts_images").strip("/")
-        )
+        # Upload prefix; keep as-is (no forced nesting). Empty means root of the bucket.
+        raw_upload_prefix = os.getenv("DIGITALOCEAN_UPLOAD_PREFIX", "").strip("/")
+        normalized_prefix = raw_upload_prefix
+
         max_file_size_mb = int(os.getenv("DIGITALOCEAN_MAX_FILE_SIZE_MB", "5"))
         admin_token = os.getenv("ADMIN_TOKEN")
         telegram_bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
@@ -82,7 +83,7 @@ class Settings:
             digitalocean_region=region,
             digitalocean_cdn_endpoint=cdn_endpoint.rstrip("/"),
             digitalocean_origin_endpoint=origin_endpoint.rstrip("/"),
-            digitalocean_upload_prefix=upload_prefix,
+            digitalocean_upload_prefix=normalized_prefix,
             digitalocean_max_file_size_mb=max_file_size_mb,
             admin_token=admin_token,
             telegram_bot_token=telegram_bot_token,

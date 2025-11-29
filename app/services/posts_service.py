@@ -91,7 +91,7 @@ async def upload_images_to_spaces(
                 details={"filename": upload.filename},
             ) from exc
 
-        cdn_urls.append(f"{settings.digitalocean_cdn_endpoint}/{key}")
+        cdn_urls.append(f"{settings.digitalocean_cdn_endpoint}/projectrakawarananew/{key}")
 
     return cdn_urls
 
@@ -131,10 +131,12 @@ async def create_rescue_post_with_images(
             "Land Mark": validated.land_mark,
             "District": validated.district,
             "Emergency Type": validated.emergency_type,
+            "Priority Level": validated.priority_level,
+            "Location URL": validated.location_url,
             "Description": validated.description,
         },
         image_urls=image_urls,
-        is_verified=validated.is_verified,
+        is_verified=False,
     )
 
     logger.info("Created rescue post %s with %d images", post_record.get("id"), len(image_records))
